@@ -1,4 +1,4 @@
-# Barajas Cortes Carlos Alejenadro, semestre 2 Grupo B, Facultad de ingenieria mecanica y electrica, ingenieria en computacion inteligente, Universidad de Colims
+# Barajas Cortes Carlos Alejenadro, semestre 2 Grupo B, Facultad de ingenieria mecanica y electrica, ingenieria en computacion inteligente, Universidad de Colima
 ## Portafolio segunda parcial, programacion en dart y sus respectivos diagramas de clase
 ### Ejercicio 1.-
 ```dart
@@ -79,7 +79,7 @@ void reporte(Animal a) {
   print("Sonido: ${a.sonido}");
 }
  */
- ```dart
+```
  ### Diagrama de clase
 ![diagrama 19 03 23](https://github.com/CarlosBarajas1004/SegundaParcial.md/assets/113406737/650d2c82-0d63-480f-8011-cd942c80e67d)
 
@@ -133,9 +133,11 @@ class Persona{
     this.aNac = aNac;
   }
 }
-```dart
+```
 ### Diagrama de clase
 ![diagrama 20 04 23](https://github.com/CarlosBarajas1004/SegundaParcial.md/assets/113406737/214c2276-936a-4534-8c7a-d1eb2be87a72)
+
+
 ## Ejercicio 3.-
 ```dart
 /*Escriba un programa que tenga una clase Figura
@@ -191,9 +193,11 @@ class Figura{
     return base! * base!;
   }
 }
-```dart
+```
 ### Diagrama de clase
 ![diagrama 26 04 23](https://github.com/CarlosBarajas1004/SegundaParcial.md/assets/113406737/942dd82c-9b59-49fe-ac99-5de4edd7370a)
+
+
 
 ## Ejercicio 4.- codigo 1:
 ```dart
@@ -236,7 +240,7 @@ class Shape {
 
 
 //set y get son metodos
-```dart
+```
 ### Codigo 2.-
 ```dart
 import 'vehiculo.dart';
@@ -293,7 +297,8 @@ class Vehiculo {
     );
   }
 }
-```dart
+```
+
 ### DIagrama de clase
 ![diagrama27 04 23](https://github.com/CarlosBarajas1004/SegundaParcial.md/assets/113406737/8a020168-15a9-4766-b0ee-ec8969bffd26)
 
@@ -337,7 +342,8 @@ class Animal {
     print("Cantidad de tipos de animales: $counterStatic");
   }
 }
-```dart
+```
+
 ### Diagrma de clase
 ![diagrama 3 05 23](https://github.com/CarlosBarajas1004/SegundaParcial.md/assets/113406737/3b8accf0-40e2-40cc-82e4-afe676d23542)
 
@@ -419,7 +425,8 @@ class Vaca extends Animal {
   }
 
 }
-```dart
+```
+
 ### Diagrama de clase
 ![diagrama 4 05 23](https://github.com/CarlosBarajas1004/SegundaParcial.md/assets/113406737/c72a95d6-b816-4bd4-8cd2-0abbc499ecea)
 
@@ -494,7 +501,8 @@ class Carro extends Vehiculo{
     print('Tipo: $_tipo');
   }
 }
-```dart
+```
+
 ### Diagrama de clase
 ![diagrama 17 05 23](https://github.com/CarlosBarajas1004/SegundaParcial.md/assets/113406737/dc058c19-898a-4d83-8eb5-334e3e900c62)
 
@@ -535,7 +543,8 @@ class Television implements ControlRemoto {
     print('Bajar Volumen de la TV');
   }
 }
-```dart
+```
+
 ### Diagrama de clase
 ![diagrama 18 05 23](https://github.com/CarlosBarajas1004/SegundaParcial.md/assets/113406737/08528d88-364d-4258-a5f8-b805199711fe)
 
